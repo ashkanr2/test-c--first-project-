@@ -1,0 +1,28 @@
+Console.WriteLine("tedad add ha ra vaed konid ");
+int numbers = int.Parse(Console.ReadLine());
+Console.WriteLine(" tool ra vaed konid ");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("arz ha ra vaed konid ");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine();
+int c = a * b;
+ if (c > numbers)
+{
+    Console.WriteLine("overcrowded");
+}
+int z = 1;
+// 16  4  4 
+for(int i = 1; i <= b; i++)
+    {
+        for(int j = 1; j <= a;j++)
+        {
+        //if((i*j)<numbers)
+        //{
+        //    Console.WriteLine("0");
+        //}
+           Console.Write(z + " ");
+        z++;
+        }
+        Console.WriteLine();
+
+    }
