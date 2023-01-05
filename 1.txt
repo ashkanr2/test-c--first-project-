@@ -1,5 +1,5 @@
 
-Console.WriteLine("tedad add ha ra vaed konid "); // salam ///////
+Console.WriteLine("tedad add ha ra vaed konid "); // salam /////// /////
 int numbers = int.Parse(Console.ReadLine());
 Console.WriteLine(" tool ra vaed konid ");
 int a = int.Parse(Console.ReadLine());
